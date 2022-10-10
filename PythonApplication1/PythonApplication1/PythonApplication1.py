@@ -52,7 +52,7 @@ def json_f():
                 inp = {"name" : "vasya", "age" : "16"}
                 json_fi = json.dump(inp,json_fi)
         case 2:
-            with open("file.json", "w+") as json_fi:
+            with open("file.json", "a+") as json_fi:
                 inp = {"name" : "ilya", "age" : "19"}
                 json_fi = json.dump(inp,json_fi)
         case 3:
